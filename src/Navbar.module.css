@@ -1,0 +1,86 @@
+/* offfer */
+.offer{
+    height: 35px;
+    background-color: rgb(39, 54, 49); 
+}
+.offer h1{
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* navbar style */
+
+.navbar{
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+  }
+  .navbar .ul1 h3 {
+    margin-top: -30px;
+    margin-left: -180px;
+    color: rgb(48, 69, 69);
+    letter-spacing:3px;
+  }
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    padding-left: 150px;
+    padding-right: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  .navbar ul li a{
+    margin-left: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 500;
+    
+ }
+  .navbar .ul2
+  {
+    margin-left: 130px;
+  }
+  .navbar .ul2 li{
+    padding-left: 60px;
+  }
+ 
+.contact{
+  left: 50px;
+  height: 430px;
+  width: 360px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact p{
+  font-size: 15px;
+  padding-top: 8px;
+  text-transform: uppercase;
+}
+.contact input{
+  height: 35px;
+}
+/* .contact input:focus{
+  outline: none;
+} */
+
+.contact button{
+  background-color: rgb(41, 69, 76);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  height: 40px;
+  width: 345px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact button:hover{
+  background-color: rgb(38, 78, 91);
+  
+}

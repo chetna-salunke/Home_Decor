@@ -1,0 +1,39 @@
+.size{
+  height: 1300px;
+  background-color: rgb(250, 250, 250);
+}
+.gallery{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 250, 250);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .gal{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 2fr));
+    gap: 26px; /* Space between images */
+  }
+  
+  .imgcontainer {
+    overflow: hidden; /* Hide overflow */
+    border-radius: 5px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .imgcontainer:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  .imgcontainer img {
+    width: 100%;
+    height: 260px; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+  }

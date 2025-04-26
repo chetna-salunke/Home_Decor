@@ -1,0 +1,51 @@
+.space {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.parent {
+    display: flex;
+    min-height: 100vh;
+    margin-top: 50px;
+    position: relative;
+}
+
+.asidebar {
+    width: 13%;
+    position: fixed;
+    top:80px;
+    left: 0;
+    height:100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.asidebar h3 {
+    font-size: 1.2rem;
+    padding-top: 4.2rem;
+    padding-left: 1.2rem;
+    font-weight: 500;
+}
+
+.asidebar ul {
+    padding-top: 1.0rem;
+    padding-left: 1.2rem;
+    list-style: none;
+    text-decoration: none;
+    color: pink;
+}
+
+.asidebar ul li {
+    padding-top: 0.4rem;
+    text-decoration: none;
+    color: rgb(30, 33, 34);
+}
+
+.mainbar {
+    margin-left: 13%;
+    width: 87%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-left: 1px solid grey;
+}

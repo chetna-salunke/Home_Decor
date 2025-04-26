@@ -1,0 +1,44 @@
+.blog{
+    height: 800px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    height: 670px;
+    width:530px;
+    background-color: rgb(15, 15, 15);
+    padding: 40px;
+}
+.text p{
+    font-size: 13px;
+    color: rgb(159, 154, 154);
+}
+.text h2{
+    font-size: 30px;color: white;
+    padding-top: 25px;
+    letter-spacing: 2px;
+    font-weight:500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text button{
+    margin-top: 30px;
+    background-color: grey;
+    padding: 10px 12px;
+    color: white;
+    border: none;
+}
+
+.art{
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.art p{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+}
+.art h3{
+    font-size: 20px;
+}
